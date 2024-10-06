@@ -1,0 +1,12 @@
+language: en
+channels:
+  default:
+    radius: 1000
+disabled-worlds:
+  - world_nether
+  - world_the_end
+
+blocked-blocks:
+  - AIR
+  - LAVA
+  - WATER

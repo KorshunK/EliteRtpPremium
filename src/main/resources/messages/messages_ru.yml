@@ -1,0 +1,3 @@
+dont_have_permission: "&cНе достаточно прав!"
+rtp-success: "&aВы телепортировались на координаты {pos_x} {pos_y} {pos_z}"
+world-is-blocked: "&cВ этом мире запрещено ртп!"
