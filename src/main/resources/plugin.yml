@@ -1,3 +1,12 @@
 name: EliteRtpPremium
 version: '${project.version}'
 main: ru.korshun.elitertppremium.EliteRtpPremium
+commands:
+  rtpdefault: {}
+  rtpnear: {}
+  rtpfar: {}
+  rtpworld: {}
+  rtp: {}
+  elitertp:
+    aliases:
+      - ertp

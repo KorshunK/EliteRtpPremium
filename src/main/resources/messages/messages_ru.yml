@@ -1,3 +1,13 @@
 dont_have_permission: "&cНе достаточно прав!"
-rtp-success: "&aВы телепортировались на координаты {pos_x} {pos_y} {pos_z}"
+rtp-success:
+  type: MESSAGE # MESSAGE, TITLE
+  rtp-success-message: "&aВы были телепортированы на координаты {pos_x} {pos_y} {pos_z}"
+  rtp-success-message-other: "&aВы телепортировали игрока {player_name} на координаты {pos_x} {pos_y} {pos_z}"
+  subtitle: "&cна координаты {pos_x} {pos_y} {pos_z}" # Не работает при type: TITLE
 world-is-blocked: "&cВ этом мире запрещено ртп!"
+rtp-near-players-count-less-min: "&cНедостаточно игроков для телепортации рядом с игроками!"
+player-has-cooldown: "&cЭту команду можно использовать раз в {cooldown} секунд" # {cooldown_remained} will show how much time is left before the cooldown ends
+in-world-tp-blocked: "&cТелепортация в этот мир запрещена!"
+not-enough-food: "&cНе достаточно еды для телепортации!"
+not-enough-heal: "&cНе достаточно здоровья для телепортации!"
+plugin-reloaded: "&aПлагин перезагружен"

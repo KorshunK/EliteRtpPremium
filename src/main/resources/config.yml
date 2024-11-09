@@ -1,11 +1,75 @@
 language: en
+particles:
+  effect: EXPLOSION_LARGE
+  count: 10
+menu:
+  title: "RTP"
+  size: 54
+  items:
+    rtpDefault:
+      display_name: "&aDefault rtp"
+      material: STONE
+      slot: 10
+      action: rtpDefault
+    rtpNear:
+      display_name: "&cRtp near the players"
+      material: TNT
+      slot: 15
+      action: rtpNear
+    rtpFar:
+      display_name: "&aFar rtp"
+      material: GRASS
+      slot: 20
+      action: rtpFar
+    rtpWorld:
+      display_name: "&aRtp between worlds"
+      material: BEDROCK
+      slot: 25
+      action: rtpWorld
+world-menu:
+  title: "RTP WORLD"
+  size: 54
+  default_world_icon: GRASS
+  start-slot: 0
+  end-slot: 53
+  world-icons:
+    world: GRASS
+    world_nether: NETHERRACK
+    world_the_end: GRASS
+  items:
+    glass-1:
+      display_name: " "
+      material: RED_GLAZED_TERRACOTTA
+      slot: 0
+      enchantments:
+        - ARROW_DAMAGE;1
 channels:
   default:
     radius: 1000
+    cooldown: 15
+    foodRemove: 4
+    healRemove: 2
+  near:
+    cooldown: 90
+    min-players-for-tp: 2
+    foodRemove: 10
+    healRemove: 5
+  far:
+    radius: 2000
+    cooldown: 60
+    foodRemove: 6
+    healRemove: 4
+  world:
+    default_world: world_nether
+    radius: 5000
+    cooldown: 60
+    foodRemove: 6
+    healRemove: 4
 disabled-worlds:
   - world_nether
   - world_the_end
-
+disabled-in-worlds:
+  - world_the_end
 blocked-blocks:
   - AIR
   - LAVA

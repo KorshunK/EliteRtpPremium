@@ -1,0 +1,12 @@
+dont_have_permission: "&cНе достаточно прав!"
+rtp-success:
+  type: MESSAGE
+  rtp-success-message: "&aYou have teleported to the coordinates {pos_x} {pos_y} {pos_z}"
+  subtitle: "&cto the coordinates {pos_x} {pos_y} {pos_z}"
+world-is-blocked: "&cRTP is prohibited in this world!"
+rtp-near-players-count-less-min: "&cThere are not enough players to teleport next to the players"
+player-has-cooldown: "&cThis command can be used once every {cooldown} seconds" # {cooldown_remained} will show how much time is left before the cooldown ends
+in-world-tp-blocked: "&cTeleportation to this world is prohibited!"
+not-enough-food: "&cNot enough food to teleport!"
+not-enough-heal: "&cNot enough heal to teleport!"
+plugin-reloaded: "&aPlugin has been reloaded"
